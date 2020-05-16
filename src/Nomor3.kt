@@ -3,7 +3,7 @@ fun main() {
 }
 
 fun hollowTriangle(row : Int){
-    //if (row%2!=0 && row > 0){
+    if (row%2!=0 && row > 0){
         for (i in 0..row-1){
             for (j in 0..row-1){
                 if(i == 0 || i == j){
@@ -26,6 +26,6 @@ fun hollowTriangle(row : Int){
             }
             println()
         }
-    //}
+    }
 }
 
