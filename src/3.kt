@@ -1,5 +1,5 @@
 fun main() {
-    hollowTriangle(6)
+    hollowTriangle(7)
 }
 
 fun hollowTriangle(row : Int){
@@ -26,6 +26,7 @@ fun hollowTriangle(row : Int){
             }
             println()
         }
-    }
+    } else
+        println("Input harus angka ganjil!!")
 }
 

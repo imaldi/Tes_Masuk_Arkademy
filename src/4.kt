@@ -1,5 +1,5 @@
 fun main() {
-    checkDuplicate("Aldi!!")
+    checkDuplicate("Aldi!! Apa Kabar?")
 }
 
 fun checkDuplicate(strings: String) {

@@ -10,6 +10,7 @@ fun triangle(row : Int){
             }
             println()
         }
-    }
+    } else
+        println("Parameter Harus Angka Positif!!")
 }
 
