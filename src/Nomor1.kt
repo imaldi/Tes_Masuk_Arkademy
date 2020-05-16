@@ -1,3 +1,7 @@
+fun main() {
+    triangle(5)
+}
+
 fun triangle(row : Int){
     if(row > 0){
         for(i in 0..row-1){
@@ -9,6 +13,3 @@ fun triangle(row : Int){
     }
 }
 
-fun main() {
-    triangle(5)
-}
